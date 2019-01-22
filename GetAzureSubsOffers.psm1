@@ -5,12 +5,7 @@ Import-Module Az.psm1
 function Get-AzureSubsOffers {
     
     [CmdletBinding()]
-    param(
-        #[parameter(Mandatory=$true)]$SiteFullUrl,
-        #[parameter(Mandatory=$true)]$Creds,
-        #$Owners,
-        #[switch]$SkipUploadPackages
-    )
+    param()
  
     Write-Verbose "Login"
     Login
